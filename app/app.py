@@ -2,7 +2,7 @@ from typing import Optional
 
 from fastapi import FastAPI
 
-from investing import get_crypto_portfolio
+from app.investing import get_crypto_portfolio
 
 
 app = FastAPI()
